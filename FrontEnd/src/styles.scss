@@ -21,25 +21,29 @@ table{
     color: $testBlue;
 }
 
-.classRandom{
-    &-1 {
-        color: lightgreen;
-        background-color: darkblue;
-    }
+.classRandom {
+  &-1 {
+    color: lightgreen;
+    background-color: darkblue;
+    font-weight: bold;
+  }
 
-    &-2 {
-        color: yellow;
-        background-color: purple;
-    }
+  &-2 {
+    color: yellow;
+    background-color: purple;
+    font-weight: normal;
+  }
 
-    &-3 {
-        color: blue;
-        background-color: orange;
-    }
+  &-3 {
+    color: blue;
+    background-color: orange;
+    font-weight: lighter;
+  }
 
-    &-4 {
-        color: Black;
-        background-color: white;
-    }
+  &-4 {
+    color: Black;
+    background-color: white;
+    font-weight: 900;
+  }
 }
 
